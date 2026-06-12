@@ -70,8 +70,8 @@ class WPLL_Export {
 
 		add_submenu_page(
 			'wpll-overview',
-			__( 'Export', 'wp-last-login-tracker' ),
-			__( 'Export', 'wp-last-login-tracker' ),
+			__( 'Export', 'last-login-tracker' ),
+			__( 'Export', 'last-login-tracker' ),
 			'list_users',
 			'wpll-export',
 			array(
@@ -97,14 +97,14 @@ class WPLL_Export {
 			<h1>
 				<?php esc_html_e(
 					'Export Login Activity',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</h1>
 
 			<p>
 				<?php esc_html_e(
 					'Export all tracked login activity as a CSV file.',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</p>
 
@@ -124,7 +124,7 @@ class WPLL_Export {
 				/>
 
 				<?php submit_button(
-					__( 'Export CSV', 'wp-last-login-tracker' )
+					__( 'Export CSV', 'last-login-tracker' )
 				); ?>
 
 			</form>

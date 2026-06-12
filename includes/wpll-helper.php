@@ -98,7 +98,7 @@ class WPLL_Helper {
 	public static function format_login_date( $timestamp ) {
 
 		if ( empty( $timestamp ) ) {
-			return __( 'Never', 'wp-last-login-tracker' );
+			return __( 'Never', 'last-login-tracker' );
 		}
 
 		return wp_date(

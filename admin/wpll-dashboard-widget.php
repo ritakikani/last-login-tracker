@@ -66,7 +66,7 @@ class WPLL_Dashboard_Widget {
 
 		wp_add_dashboard_widget(
 			'wpll_dashboard_widget',
-			__( 'WP Last Login Tracker', 'wp-last-login-tracker' ),
+			__( 'WP Last Login Tracker', 'last-login-tracker' ),
 			array( $this, 'render_widget' )
 		);
 	}
@@ -113,7 +113,7 @@ class WPLL_Dashboard_Widget {
 					<th>
 						<?php esc_html_e(
 							'Total Users',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</th>
 
@@ -130,7 +130,7 @@ class WPLL_Dashboard_Widget {
 					<th>
 						<?php esc_html_e(
 							'Logged In Today',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</th>
 
@@ -147,7 +147,7 @@ class WPLL_Dashboard_Widget {
 					<th>
 						<?php esc_html_e(
 							'Never Logged In',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</th>
 
@@ -164,7 +164,7 @@ class WPLL_Dashboard_Widget {
 					<th>
 						<?php esc_html_e(
 							'Inactive 30 Days',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</th>
 
@@ -185,7 +185,7 @@ class WPLL_Dashboard_Widget {
 			<h4>
 				<?php esc_html_e(
 					'Recent Logins',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</h4>
 
@@ -198,14 +198,14 @@ class WPLL_Dashboard_Widget {
 						<th>
 							<?php esc_html_e(
 								'User',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 						</th>
 
 						<th>
 							<?php esc_html_e(
 								'Last Login',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 						</th>
 
@@ -251,7 +251,7 @@ class WPLL_Dashboard_Widget {
 
 				<?php esc_html_e(
 					'View Full Report',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 
 			</a>

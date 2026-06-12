@@ -79,7 +79,7 @@ class WPLL_User_Filters {
 			<option value="">
 				<?php esc_html_e(
 					'All Users',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</option>
 
@@ -89,7 +89,7 @@ class WPLL_User_Filters {
 			>
 				<?php esc_html_e(
 					'Inactive 30 Days',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</option>
 
@@ -99,7 +99,7 @@ class WPLL_User_Filters {
 			>
 				<?php esc_html_e(
 					'Inactive 60 Days',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</option>
 
@@ -109,7 +109,7 @@ class WPLL_User_Filters {
 			>
 				<?php esc_html_e(
 					'Inactive 90 Days',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</option>
 
@@ -119,7 +119,7 @@ class WPLL_User_Filters {
 			>
 				<?php esc_html_e(
 					'Never Logged In',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</option>
 

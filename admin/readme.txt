@@ -68,7 +68,7 @@ Developers can integrate login tracking information into custom dashboards, repo
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/wp-last-login-tracker` directory.
+1. Upload the plugin files to the `/wp-content/plugins/last-login-tracker` directory.
 2. Activate the plugin through the "Plugins" screen in WordPress.
 3. Navigate to Users → Last Login Tracker or the plugin settings page.
 4. Configure your preferred settings.

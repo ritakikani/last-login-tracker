@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: WP Last Login Tracker
- * Plugin URI: https://wordpress.org/plugins/wp-last-login-tracker/
+ * Plugin URI: https://wordpress.org/plugins/last-login-tracker/
  * Description: Track user last login date, login IP address, inactive users and activity reports.
  * Version: 1.0.0
  * Author: Rita Kikani
  * License: GPL v2 or later
- * Text Domain: wp-last-login-tracker
+ * Text Domain: last-login-tracker
  * Domain Path: /languages
  */
 
@@ -236,7 +236,7 @@ class WPLL_Plugin {
 	public function load_textdomain() {
 
 		load_plugin_textdomain(
-			'wp-last-login-tracker',
+			'last-login-tracker',
 			false,
 			dirname(
 				plugin_basename(

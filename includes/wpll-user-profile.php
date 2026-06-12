@@ -86,7 +86,7 @@ class WPLL_User_Profile {
 		<h2>
 			<?php esc_html_e(
 				'Last Login Information',
-				'wp-last-login-tracker'
+				'last-login-tracker'
 			); ?>
 		</h2>
 
@@ -98,7 +98,7 @@ class WPLL_User_Profile {
 					<label>
 						<?php esc_html_e(
 							'Last Login',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</label>
 				</th>
@@ -125,7 +125,7 @@ class WPLL_User_Profile {
 						<label>
 							<?php esc_html_e(
 								'Last Login IP',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 						</label>
 					</th>
@@ -146,7 +146,7 @@ class WPLL_User_Profile {
 					<label>
 						<?php esc_html_e(
 							'Days Since Last Login',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						); ?>
 					</label>
 				</th>
@@ -159,7 +159,7 @@ class WPLL_User_Profile {
 
 						esc_html_e(
 							'Never Logged In',
-							'wp-last-login-tracker'
+							'last-login-tracker'
 						);
 
 					} else {

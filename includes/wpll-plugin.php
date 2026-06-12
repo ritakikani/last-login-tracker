@@ -78,7 +78,7 @@ class WPLL_Plugin {
 	public function load_textdomain() {
 
 		load_plugin_textdomain(
-			'wp-last-login-tracker',
+			'last-login-tracker',
 			false,
 			dirname( plugin_basename( WPLL_PLUGIN_FILE ) ) . '/languages'
 		);

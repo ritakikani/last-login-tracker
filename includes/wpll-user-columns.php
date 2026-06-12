@@ -78,7 +78,7 @@ class WPLL_User_Columns {
 
 		$columns['wpll_last_login'] = __(
 			'Last Login',
-			'wp-last-login-tracker'
+			'last-login-tracker'
 		);
 
 		$settings = WPLL_Helper::get_settings();
@@ -87,7 +87,7 @@ class WPLL_User_Columns {
 
 			$columns['wpll_last_login_ip'] = __(
 				'Login IP',
-				'wp-last-login-tracker'
+				'last-login-tracker'
 			);
 		}
 

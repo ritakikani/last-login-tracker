@@ -135,7 +135,7 @@ class WPLL_REST_Controller {
 				'wpll_user_not_found',
 				__(
 					'User not found.',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				),
 				array(
 					'status' => 404,

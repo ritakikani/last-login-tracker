@@ -106,7 +106,7 @@ Site administrators are responsible for ensuring compliance with applicable priv
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wp-last-login-tracker.git
+git clone https://github.com/ritakikani/last-login-tracker.git
 ```
 
 Install the plugin into your WordPress environment and activate it for testing.
@@ -135,7 +135,7 @@ This project is licensed under the GNU General Public License v2.0 or later (GPL
 WordPress Plugin Developer
 
 GitHub Repository:
-https://github.com/ritakikani/wp-last-login-tracker
+https://github.com/ritakikani/last-login-tracker
 
 ---
 

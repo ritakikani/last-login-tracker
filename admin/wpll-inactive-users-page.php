@@ -62,8 +62,8 @@ class WPLL_Inactive_Users_Page {
 
 		add_submenu_page(
 			'wpll-overview',
-			__( 'Inactive Users', 'wp-last-login-tracker' ),
-			__( 'Inactive Users', 'wp-last-login-tracker' ),
+			__( 'Inactive Users', 'last-login-tracker' ),
+			__( 'Inactive Users', 'last-login-tracker' ),
 			'list_users',
 			'wpll-inactive-users',
 			array(
@@ -110,7 +110,7 @@ class WPLL_Inactive_Users_Page {
 			<h1>
 				<?php esc_html_e(
 					'Inactive Users',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</h1>
 
@@ -143,7 +143,7 @@ class WPLL_Inactive_Users_Page {
 				</select>
 
 				<?php submit_button(
-					__( 'Filter', 'wp-last-login-tracker' ),
+					__( 'Filter', 'last-login-tracker' ),
 					'secondary',
 					'',
 					false
@@ -159,13 +159,13 @@ class WPLL_Inactive_Users_Page {
 
 					<tr>
 
-						<th><?php esc_html_e( 'User', 'wp-last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'User', 'last-login-tracker' ); ?></th>
 
-						<th><?php esc_html_e( 'Email', 'wp-last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'Email', '	last-login-tracker' ); ?></th>
 
-						<th><?php esc_html_e( 'Last Login', 'wp-last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'Last Login', 'last-login-tracker' ); ?></th>
 
-						<th><?php esc_html_e( 'Login IP', 'wp-last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'Login IP', '	last-login-tracker' ); ?></th>
 
 					</tr>
 
@@ -181,7 +181,7 @@ class WPLL_Inactive_Users_Page {
 
 								<?php esc_html_e(
 									'No inactive users found.',
-									'wp-last-login-tracker'
+									'last-login-tracker'
 								); ?>
 
 							</td>

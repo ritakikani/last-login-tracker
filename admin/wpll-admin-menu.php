@@ -67,8 +67,8 @@ class WPLL_Admin_Menu {
 	public function register_menu() {
 
 		add_menu_page(
-			__( 'WP Last Login Tracker', 'wp-last-login-tracker' ),
-			__( 'Last Login Tracker', 'wp-last-login-tracker' ),
+			__( 'WP Last Login Tracker', 'last-login-tracker' ),
+			__( 'Last Login Tracker', 'last-login-tracker' ),
 			'list_users',
 			'wpll-overview',
 			array(
@@ -109,7 +109,7 @@ class WPLL_Admin_Menu {
 
 				<?php esc_html_e(
 					'WP Last Login Tracker',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 
 			</h1>
@@ -124,7 +124,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Total Users',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -145,7 +145,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Logged In Today',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -166,7 +166,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Never Logged In',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -187,7 +187,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Inactive 30 Days',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -208,7 +208,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Inactive 60 Days',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -229,7 +229,7 @@ class WPLL_Admin_Menu {
 
 							<?php esc_html_e(
 								'Inactive 90 Days',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>

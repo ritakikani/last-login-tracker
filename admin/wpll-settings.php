@@ -70,8 +70,8 @@ class WPLL_Settings {
 
 		add_submenu_page(
 			'wpll-overview',
-			__( 'Settings', 'wp-last-login-tracker' ),
-			__( 'Settings', 'wp-last-login-tracker' ),
+			__( 'Settings', 'last-login-tracker' ),
+			__( 'Settings', 'last-login-tracker' ),
 			'manage_options',
 			'wpll-settings',
 			array(
@@ -161,7 +161,7 @@ class WPLL_Settings {
 			<h1>
 				<?php esc_html_e(
 					'WP Last Login Tracker Settings',
-					'wp-last-login-tracker'
+					'last-login-tracker'
 				); ?>
 			</h1>
 
@@ -184,7 +184,7 @@ class WPLL_Settings {
 
 							<?php esc_html_e(
 								'Track Login IP',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -205,7 +205,7 @@ class WPLL_Settings {
 
 								<?php esc_html_e(
 									'Store user login IP address.',
-									'wp-last-login-tracker'
+									'last-login-tracker'
 								); ?>
 
 							</label>
@@ -220,7 +220,7 @@ class WPLL_Settings {
 
 							<?php esc_html_e(
 								'Dashboard Widget',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
@@ -241,7 +241,7 @@ class WPLL_Settings {
 
 								<?php esc_html_e(
 									'Show dashboard widget.',
-									'wp-last-login-tracker'
+									'last-login-tracker'
 								); ?>
 
 							</label>
@@ -256,7 +256,7 @@ class WPLL_Settings {
 
 							<?php esc_html_e(
 								'Retention Period',
-								'wp-last-login-tracker'
+								'last-login-tracker'
 							); ?>
 
 						</th>
