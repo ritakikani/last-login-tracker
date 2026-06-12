@@ -54,7 +54,7 @@ class WPLL_Admin_Menu {
 	 *
 	 * Creates:
 	 *
-	 * WP Last Login Tracker
+	 * Last Login Tracker
 	 * ├── Dashboard
 	 * ├── Inactive Users
 	 * ├── Export
@@ -67,7 +67,7 @@ class WPLL_Admin_Menu {
 	public function register_menu() {
 
 		add_menu_page(
-			__( 'WP Last Login Tracker', 'last-login-tracker' ),
+			__( 'Last Login Tracker', 'last-login-tracker' ),
 			__( 'Last Login Tracker', 'last-login-tracker' ),
 			'list_users',
 			'wpll-overview',
@@ -108,7 +108,7 @@ class WPLL_Admin_Menu {
 			<h1>
 
 				<?php esc_html_e(
-					'WP Last Login Tracker',
+					'Last Login Tracker',
 					'last-login-tracker'
 				); ?>
 

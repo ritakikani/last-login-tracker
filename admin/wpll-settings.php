@@ -160,7 +160,7 @@ class WPLL_Settings {
 
 			<h1>
 				<?php esc_html_e(
-					'WP Last Login Tracker Settings',
+					'Last Login Tracker Settings',
 					'last-login-tracker'
 				); ?>
 			</h1>

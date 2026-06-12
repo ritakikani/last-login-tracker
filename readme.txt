@@ -1,4 +1,4 @@
-=== WP Last Login Tracker ===
+=== Last Login Tracker ===
 Contributors: kikanirita
 Tags: users, login, last login, user management, inactive users, admin tools
 Requires at least: 6.0
@@ -12,7 +12,7 @@ Track user login activity, IP addresses, inactive users, and export login data d
 
 == Description ==
 
-WP Last Login Tracker helps administrators monitor user activity by recording login timestamps and IP addresses. It provides powerful reporting tools, inactive user detection, CSV exports, dashboard insights, and REST API access.
+Last Login Tracker helps administrators monitor user activity by recording login timestamps and IP addresses. It provides powerful reporting tools, inactive user detection, CSV exports, dashboard insights, and REST API access.
 
 Perfect for membership sites, organizations, intranets, learning platforms, and communities that need visibility into user engagement.
 
@@ -125,7 +125,7 @@ Compatibility depends on your installation and configuration. Testing is recomme
 
 = 1.0.0 =
 
-Initial public release of WP Last Login Tracker.
+Initial public release of Last Login Tracker.
 
 == Privacy ==
 

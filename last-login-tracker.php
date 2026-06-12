@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WP Last Login Tracker
+ * Plugin Name: Last Login Tracker
  * Plugin URI: https://wordpress.org/plugins/last-login-tracker/
  * Description: Track user last login date, login IP address, inactive users and activity reports.
  * Version: 1.0.0
@@ -249,8 +249,6 @@ class WPLL_Plugin {
 
 /**
  * Main plugin instance.
- *
- * Similar to WPEM() in WP Event Manager.
  *
  * @since 1.0.0
  *

@@ -66,7 +66,7 @@ class WPLL_Dashboard_Widget {
 
 		wp_add_dashboard_widget(
 			'wpll_dashboard_widget',
-			__( 'WP Last Login Tracker', 'last-login-tracker' ),
+			__( 'Last Login Tracker', 'last-login-tracker' ),
 			array( $this, 'render_widget' )
 		);
 	}

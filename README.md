@@ -1,10 +1,10 @@
-# WP Last Login Tracker
+# Last Login Tracker
 
 A powerful WordPress plugin that helps administrators monitor user activity by tracking login dates, login IP addresses, inactive users, and exporting activity reports.
 
 ## 🚀 Overview
 
-WP Last Login Tracker provides valuable insights into user engagement and account activity. It records login information automatically and presents it through an intuitive admin interface, helping site owners manage users more effectively.
+Last Login Tracker provides valuable insights into user engagement and account activity. It records login information automatically and presents it through an intuitive admin interface, helping site owners manage users more effectively.
 
 Whether you're running a membership site, e-learning platform, community website, intranet, or customer portal, this plugin gives you the visibility needed to understand user activity.
 
