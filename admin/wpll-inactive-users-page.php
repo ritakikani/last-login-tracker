@@ -161,11 +161,11 @@ class WPLL_Inactive_Users_Page {
 
 						<th><?php esc_html_e( 'User', 'last-login-tracker' ); ?></th>
 
-						<th><?php esc_html_e( 'Email', '	last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'Email', 'last-login-tracker' ); ?></th>
 
 						<th><?php esc_html_e( 'Last Login', 'last-login-tracker' ); ?></th>
 
-						<th><?php esc_html_e( 'Login IP', '	last-login-tracker' ); ?></th>
+						<th><?php esc_html_e( 'Login IP', 'last-login-tracker' ); ?></th>
 
 					</tr>
 
