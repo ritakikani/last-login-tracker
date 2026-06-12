@@ -130,7 +130,7 @@ This project is licensed under the GNU General Public License v2.0 or later (GPL
 
 ## 👨‍💻 Author
 
-**Rita Kika**
+**Rita Kikani**
 
 WordPress Plugin Developer
 
